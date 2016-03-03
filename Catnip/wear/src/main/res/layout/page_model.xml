@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/modelPic"
+        android:layout_marginTop="19dp"
+        android:src="@drawable/boxer"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Barbara"
+        android:id="@+id/modelName"
+        android:layout_below="@+id/modelPic"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Dem"
+        android:id="@+id/modelParty"
+        android:layout_below="@+id/modelName"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vote View"
+        android:id="@+id/modelButton"
+        android:layout_below="@+id/modelParty"
+        android:layout_alignStart="@+id/modelPic"
+        android:onClick="watchVote" />
+</RelativeLayout>
