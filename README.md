@@ -4,11 +4,11 @@ This is the RoadToTheHouse app that gives voters facts on the go. You get to inp
 
 ## Authors
 
-FirstName LastName ([tones24@berkeley.edu](mailto:tones24@berkeley.edu))
+Antonio Contreras ([tones24@berkeley.edu](mailto:tones24@berkeley.edu))
 
 ## Demo Video
 
-See [your demo video title here] (https://link_to_your_video)
+See [Proj2b] (https://vimeo.com/157687990)
 
 ## Screenshots
 
@@ -16,6 +16,8 @@ See [your demo video title here] (https://link_to_your_video)
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-Shout out to the creator of the Catnip skeleton: Jasper O'leary'
+
+Shout out to the creators of the Catnip skeleton: Jasper O'leary, Jingyi Li and all 
+of the people who answer questions on StackOverFlow
+
 * Any other support

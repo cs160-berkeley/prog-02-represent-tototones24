@@ -6,7 +6,7 @@
     <ImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:id="@+id/imageView4"
+        android:id="@+id/imageView100"
         android:layout_marginTop="72dp"
         android:src="@drawable/boxer"
         android:layout_alignParentTop="true"
@@ -17,7 +17,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Barbara Boxer"
-        android:id="@+id/textView12"
+        android:id="@+id/detailedView69"
         android:layout_above="@+id/imageView5"
         android:layout_alignEnd="@+id/textView19" />
 
@@ -27,8 +27,8 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="In Office:"
         android:id="@+id/textView13"
-        android:layout_below="@+id/imageView4"
-        android:layout_alignEnd="@+id/imageView4"
+        android:layout_below="@+id/imageView100"
+        android:layout_alignEnd="@+id/imageView100"
         android:layout_marginTop="50dp" />
 
     <TextView
@@ -36,7 +36,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="January 3, 2007 - January 3, 2015"
-        android:id="@+id/textView15"
+        android:id="@+id/detailedView69"
         android:layout_below="@+id/textView13"
         android:layout_alignStart="@+id/textView13" />
 
@@ -47,8 +47,8 @@
         android:text="Commitees"
         android:id="@+id/textView16"
         android:layout_marginTop="47dp"
-        android:layout_below="@+id/textView15"
-        android:layout_alignStart="@+id/textView15" />
+        android:layout_below="@+id/detailedView69"
+        android:layout_alignStart="@+id/detailedView69" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -57,7 +57,7 @@
         android:text="-Env. &amp; PH Committe"
         android:id="@+id/textView17"
         android:layout_below="@+id/textView16"
-        android:layout_alignLeft="@+id/textView15" />
+        android:layout_alignLeft="@+id/detailedView69" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -83,7 +83,7 @@
         android:layout_height="50dp"
         android:id="@+id/imageView5"
         android:src="@drawable/donkey"
-        android:layout_alignBottom="@+id/imageView4"
+        android:layout_alignBottom="@+id/imageView100"
         android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

@@ -21,6 +21,7 @@
         <activity android:name=".Dianne"/>
         <activity android:name=".Judy"/>
         <activity android:name=".DetailedView"/>
+        <activity android:name=".DetailedViewTwo"/>
 
 
         <service android:name=".PhoneToWatchService" />

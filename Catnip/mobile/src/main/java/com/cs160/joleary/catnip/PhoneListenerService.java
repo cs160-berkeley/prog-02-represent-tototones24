@@ -25,7 +25,7 @@ private static final String OFFIC = "/Barbara";
     @Override
     public void onMessageReceived(MessageEvent messageEvent) {
         Log.d("T", "in PhoneListenerService, got: " + messageEvent.getPath());
-        if( messageEvent.getPath().equalsIgnoreCase(TOAST) ) {
+        if( messageEvent.getPath().equalsIgnoreCase(TOAST) ) { //this gets the path
 
             // Value contains the String we sent over in WatchToPhoneService, "good job"
             String value = new String(messageEvent.getData(), StandardCharsets.UTF_8);
@@ -37,10 +37,15 @@ private static final String OFFIC = "/Barbara";
             Toast toast = Toast.makeText(context, value, duration);
             toast.show();
 
-            //Added for the testing of watch to phone
 
-//            Intent sendIntent = new Intent(getBaseContext(), DetailedView.class);
-//            sendIntent.putExtra("CAT_NAME", "Barbara Boxer");
+
+
+
+           // Added for the testing of watch to phone
+
+//            Intent sendIntent = new Intent(getBaseContext(), DetailedViewTwo.class);
+//            sendIntent.putExtra("CAT_NAME", value);
+////            Log.d("phonelisten", "Attempting to start new activity with " + value);
 //            startActivity(sendIntent);
 
 

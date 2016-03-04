@@ -98,7 +98,8 @@ public class WatchToPhoneService extends Service implements GoogleApiClient.Conn
                         Log.d("T", "found nodes");
                         //when we find a connected node, we populate the list declared above
                         //finally, we can send a message
-                        sendMessage("/send_toast", "Good job!");
+                        //sendMessage("/send_toast", "Good job!");
+                        sendMessage("/send_toast", "Barbara");
                         Log.d("T", "sent");
                     }
                 });

@@ -145,6 +145,16 @@ public class MainActivity extends Activity {
 
 
     public void watchVote (View v) {
+        //This will provide the name of the person
+//        Intent intent = getIntent();
+//        Bundle extras = intent.getExtras();
+//        String personName = extras.getString("CAT_NAME");
+//        Intent sendIntent = new Intent(getBaseContext(), WatchToPhoneService.class);
+//        sendIntent.putExtra("OFFICIAL_NAME", personName);
+//        startService(sendIntent);
+        //end of watch to phone communication
+
+
         Intent secondIntent = new Intent(getBaseContext(), VoteView.class);
         startActivity(secondIntent);
     }

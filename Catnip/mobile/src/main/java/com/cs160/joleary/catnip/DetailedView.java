@@ -16,13 +16,13 @@ public class DetailedView extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.detailed_view);
 
-        ImageView detailedImage = (ImageView)findViewById(R.id.imageView4);
-        TextView detailedName = (TextView)findViewById(R.id.textView12);
+        ImageView detailedImage = (ImageView)findViewById(R.id.imageView100);
+        TextView detailedName = (TextView)findViewById(R.id.detailedView69);
 
         Intent intent = getIntent();
         String officialPerson = intent.getStringExtra("person");
 
-        //String watchPerson = intent.getStringExtra("CAT_NAME");
+//        String watchPerson = intent.getStringExtra("CAT_NAME");
 
 
         //fot watch to phone
