@@ -11,6 +11,7 @@ Antonio Contreras ([tones24@berkeley.edu](mailto:tones24@berkeley.edu))
 ## Demo Video
 
 See [Proj2b] (https://vimeo.com/157687990)
+See [Proj2c] (https://vimeo.com/158705112)
 
 ## Screenshots
 
@@ -20,6 +21,4 @@ See [Proj2b] (https://vimeo.com/157687990)
 
 
 Shout out to the creators of the Catnip skeleton: Jasper O'leary, Jingyi Li and all 
-of the people who answer questions on StackOverFlow
-
-* Any other support
+of the people who answer questions on StackOverFlow.
